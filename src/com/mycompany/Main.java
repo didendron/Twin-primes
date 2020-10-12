@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         BigInteger firstNumber;
         BigInteger secondNumber;
         Scanner in=new Scanner(System.in);
@@ -22,6 +22,7 @@ public class Main {
                 System.out.println(firstNumber+","+secondNumber);
             }
         }
+        Thread.sleep(30000);
     }
     public static boolean isPrime(BigInteger number){
         if (number.equals(BigInteger.valueOf(2))) return true;

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Twin primes:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Twin_primes_jar</output-path>
+    <root id="archive" name="Twin primes.jar">
+      <element id="module-output" name="Twin primes" />
+    </root>
+  </artifact>
+</component>
